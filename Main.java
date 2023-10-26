@@ -2,6 +2,37 @@ import java.util.Random;
 
 class Main {
 
+  public static String fillSpot(Random rand) {
+
+    int randomSelection = rand.nextInt(6);
+
+    switch(randomSelection) {
+
+      case 0: 
+        return "Empty spot";
+        break;
+      case 1:
+        return "Game";
+        break;
+      case 2:
+        return "Doll";
+        break;
+      case 3:
+        return "Poster";
+        break;
+      case 4:
+        return "Ball";
+        break;
+      case 5:
+        return "Puzzle";
+        break;
+    }
+
+
+
+
+  }
+
 
   public static void main(String[] args) {
 
@@ -22,6 +53,8 @@ class Main {
       for (int y = 0; y < board[x].length; y++) {
 
         // loops through each cell in given row
+
+        fillSpot(rand);
 
         
       }
