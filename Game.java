@@ -1,6 +1,6 @@
 public class Game {
 
-    private int remainingGame = 3;
+    private int remainingGame;
 
     public Game(int remainingGame) {
 

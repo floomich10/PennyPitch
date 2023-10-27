@@ -1,6 +1,6 @@
 public class Poster {
 
-    private int remainingPoster = 3;
+    private int remainingPoster;
 
     public Poster(int remainingPoster) {
 

@@ -1,6 +1,6 @@
 public class Ball {
 
-    private int remainingBall = 3;
+    private int remainingBall;
 
     public Ball(int remainingBall) {
 

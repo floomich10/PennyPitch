@@ -1,6 +1,6 @@
 public class Doll {
 
-    private int remainingDoll = 3;
+    private int remainingDoll;
 
     public Doll(int remainingDoll) {
 

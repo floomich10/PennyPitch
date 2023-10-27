@@ -1,6 +1,6 @@
 public class Puzzle {
 
-    private int remainingPuzzle = 3;
+    private int remainingPuzzle;
 
     public Puzzle(int remainingPuzzle) {
 
